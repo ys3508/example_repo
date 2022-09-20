@@ -16,19 +16,19 @@ length(samp)
 
 # Section 2
 
-I can take the mean of the sample, too! The mean is -0.04.
+I can take the mean of the sample, too! The mean is -0.1.
 
 ``` r
 mean(samp)
 ```
 
-    ## [1] -0.04159908
+    ## [1] -0.0989929
 
 ``` r
 round(mean(samp),2)
 ```
 
-    ## [1] -0.04
+    ## [1] -0.1
 
 # Section 3
 
@@ -82,6 +82,6 @@ median_samp = median(pull(la_df, norm))
 round(median_samp, digits = 2) #median value rounded to two decimal places
 ```
 
-    ## [1] 1.03
+    ## [1] 1.04
 
-The median of the variable containing absolute values is 1.03.
+The median of the variable containing absolute values is 1.04.
